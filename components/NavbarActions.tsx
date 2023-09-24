@@ -12,7 +12,7 @@ const NavbarActions = () => {
   },[]);
   if(!isMounted){
     return null
-  }
+  } 
 
   return (
     <div className="ml-auto flex items-center gap-x-4">

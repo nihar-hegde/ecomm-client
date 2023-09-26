@@ -44,6 +44,11 @@ const CategoryPage: FC<CategoryPageProps> = async ({
                 name="Size"
                 data={sizes}        
                 />
+                <Filter 
+                valueKey="colorId"
+                name="Colors"
+                data={colors}        
+                />
             </div>
         </div>
       </div>
